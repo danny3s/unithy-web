@@ -1444,7 +1444,7 @@ transform: scale3d(1, 1, 1);transition: all 300ms;}
     animation-fill-mode: forwards;*/
 }
 
-.ga-roadmap-clouds-b{
+/*.ga-roadmap-clouds-b{
 	bottom:100px;
 	left:0;
 	width:200%;
@@ -1457,7 +1457,7 @@ transform: scale3d(1, 1, 1);transition: all 300ms;}
 	-moz-animation: buildings-move infinite 30s linear;
     animation: buildings-move infinite 30s linear;
     animation-fill-mode: forwards;
-}
+}*/
 
 .ga-train-b {
 	transform: translateX(-100%);
@@ -5051,7 +5051,8 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 .ga-roadmap-date-block strong {color:#5C6783;font-weight:400;display:block;left:77px;top:95px;width:260px;z-index:6;-webkit-transform : translate3d(0, 0, 0);transform : translate3d(0, 0, 0);transform-style: preserve-3d;}
 .ga-roadmap-buildings{top:120px;left:0;width:100%;height:184px;background-image: url(../img/roadmap-buildings.png);-webkit-transform : translate3d(0, 0, 0);transform : translate3d(0, 0, 0);transform-style: preserve-3d;}
 .ga-train .col-md-12 {padding:0;}
-.ga-roadmap-sky {z-index:2;top:100px;left:0;height:89px;width:100%;background-image: url(../img/roadmap-sky.png);-webkit-transform : translate3d(0, 0, 0);transform : translate3d(0, 0, 0);transform-style: preserve-3d;}
+/*.ga-roadmap-sky {z-index:2;top:0px;left:0;height:89px;width:100%;background-image: url(../img/roadmap-sky.png);-webkit-transform : translate3d(0, 0, 0);transform : translate3d(0, 0, 0);transform-style: preserve-3d;}
+*/
 .ga-roadmap-train {display:block;-webkit-transform:translate3d(-503px, 0, 0);transform:translate3d(-503px, 0, 0);top:266px;z-index:5;}
 
 /* END TRAIN */
@@ -5287,8 +5288,8 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 .ga-blue-button {
 	display:inline-block;
 	text-align:center;
-	background: #F1720B;
-	border: 1px solid #F1720B;
+	background: #3BC7D7;
+	border: 1px solid #3BC7D7;
 	border-radius: 100px;
 	color:#fff;
 	padding-left: 20px;
@@ -5327,9 +5328,9 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 	display:inline-block;
 	text-align:center;
 	background: #fff;
-	border: 1px solid #F1720B;
+	border: 1px solid #9f8bc9;
 	border-radius: 100px;
-	color: #F1720B;
+	color:#9f8bc9;
 	padding-left: 20px;
 	padding-right: 20px;
 	font-weight: 500;
@@ -5348,13 +5349,13 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 
 
 .ga-wviolet-button:hover {
-	background:#ffac00;
+	background:#9f8bc9;
 	color:#fff !important;
 }
 
 .ga-wviolet-button:link, .ga-wviolet-button:visited {
 	text-decoration:none;
-	color:#F1720B;
+	color:#9f8bc9;
 	font-weight: 500;
 }
 
