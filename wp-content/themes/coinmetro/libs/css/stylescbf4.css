@@ -2736,7 +2736,7 @@ transform: rotateY( 180deg );
 
 #ga-landing-menu .ga-landing-container{
 
-	background: rgba(146,117,200,0.95);
+	background: rgba(241,114,11,0.95);
 	color: #fff;
 	width: 100%;
 	height: 100%;
@@ -2866,7 +2866,7 @@ left: 0px;
 
 .ga-landing-top-menu li a:link, .ga-landing-top-menu li a:visited, .ga-landing-top-menu li a:active{
 	display: block;
-	color: #e2d3ff;
+	color: #F1720B;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 40px;
@@ -2874,8 +2874,8 @@ left: 0px;
 	cursor: pointer;
 	margin-right: 5px;
 	border-radius: 5px;
-	background: #8a6ac6;
-	border:1px solid #9478c9;
+	background: #ffffff;
+	border:1px solid #ffac00;
 	padding-right: 15px;
 	padding-left: 15px;
 	transition: all 400ms;
@@ -2924,7 +2924,7 @@ left: 0px;
 
 .ga-navbar {
 	text-align: center;
-	padding-top: 35px;
+	padding-top: 25px;
 	padding-bottom: 10px;
 }
 
