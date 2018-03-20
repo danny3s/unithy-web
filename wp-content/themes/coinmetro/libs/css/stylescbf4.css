@@ -5343,7 +5343,7 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 .ga-blue-button {
 	display:inline-block;
 	text-align:center;
-	background: #3BC7D7;
+	background: #F1720B;
 	border: 1px solid #3BC7D7;
 	border-radius: 100px;
 	color:#fff;
@@ -5383,7 +5383,7 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 	display:inline-block;
 	text-align:center;
 	background: #fff;
-	border: 1px solid #9f8bc9;
+	border: 1px solid #F1720B;
 	border-radius: 100px;
 	color:#9f8bc9;
 	padding-left: 20px;
@@ -5404,13 +5404,13 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 
 
 .ga-wviolet-button:hover {
-	background:#9f8bc9;
+	background:#fec051;
 	color:#fff !important;
 }
 
 .ga-wviolet-button:link, .ga-wviolet-button:visited {
 	text-decoration:none;
-	color:#9f8bc9;
+	color:#F1720B;
 	font-weight: 500;
 }
 
