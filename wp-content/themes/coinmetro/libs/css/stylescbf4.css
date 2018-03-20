@@ -3106,8 +3106,59 @@ left: 0px;
 .ga-forex .row a:hover,
 .ga-exchange a:hover {
 	background-color: #FFFFFF;
-	color: #3BC7D7;
+	color: #F1720B;
 	background-image: url(../img/play-blue.png);
+}
+
+
+.video-area {
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+    background-size: cover;
+    border: 20px solid #fff;
+    border-radius: 20px;
+    height: 650px;
+    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+}
+
+.video-area:after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    border: 1px solid #f1f4f8;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+
+.video-area .video-play-btn a {
+    width: 80px;
+    height: 80px;
+
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    line-height: 80px;
+    padding-left: 5px;
+    border-radius: 50%;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.video-area .video-play-btn a:hover {
+    background-color: #f1720b;
+    color: #fff;
 }
 
 .ga-forex .ga-bg-left,
@@ -3260,8 +3311,8 @@ left: 0px;
 .ga-cup-cup {
 	top:60px;
 	left:110px;
-	width:150px;
-	height:166px;
+	width:227px;
+	height:300px;
 	z-index:2;
 	-webkit-animation: scale infinite 4s ease-in-out;
 	-moz-animation: scale infinite 4s ease-in-out;
@@ -3364,9 +3415,9 @@ left: 0px;
 .ga-1500-billboard {
 	width:118px;
 	height:101px;
-	top:70px;
-	left:120px;
-	background-image: url(../img/billboard.png);
+	top:-9px;
+	left:109px;
+	background-image: url(../img/billboard2.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100%;
@@ -3972,7 +4023,7 @@ left: 0px;
 }
 
 .ga-contact .form-area{
-	background: #A08AC9;
+	background: #F1720B;
 	border-radius: 6px;
 	padding: 30px 60px 50px 60px;
 }
@@ -9402,7 +9453,7 @@ font-size: 20px;
 	transform: translateX(100vw) translateX(+2000px);
 	-webkit-animation: fly infinite 30s linear;
 	-moz-animation: fly infinite 30s linear;
-	animation: fly infinite 30s linear;
+	animation: fly infinite 40s linear;
 	animation-fill-mode: forwards;
 z-index:10;
 }
