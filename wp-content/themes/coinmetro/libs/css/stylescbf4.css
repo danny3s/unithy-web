@@ -162,6 +162,8 @@ a:hover {
     background: #9f8bc9 !important;
 }
 
+
+
 .owl-theme .owl-dots {
 	margin-left: -250px;
 }
@@ -2314,7 +2316,7 @@ opacity: 0;
     transform: translateY(-100%);
 }
 
-.ga-navbar-brand {background:url("../img/logo.svg");background-repeat: no-repeat;background-position: center center;width: 279px;height:65px;background-size: 99% !important;}
+
 
 .header {
     position: absolute;
@@ -2985,8 +2987,10 @@ left: 0px;
 	-ms-transition: all 200ms;
 }
 
+
+
 .navbar .collapse a.navbar-text:hover {
-	background:#3BC7D7;
+	background:#F1720B;
 	color: #fff;
 }
 
@@ -5201,7 +5205,7 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 
 .ga-event {
 	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-bottom: 160px;
 }
 
 .ga-event-plus40 {
@@ -9255,10 +9259,10 @@ animation-fill-mode: forwards;
 	font-weight: normal;
 	background: rgb(174,155,209);
 	border-radius: 2px;
-	background: -moz-linear-gradient(top, rgba(174,155,209,1) 0%, rgba(174,155,209,1) 50%, rgba(159,139,201,1) 51%, rgba(159,139,201,1) 100%);
-	background: -webkit-linear-gradient(top, rgba(174,155,209,1) 0%,rgba(174,155,209,1) 50%,rgba(159,139,201,1) 51%,rgba(159,139,201,1) 100%);
-	background: linear-gradient(to bottom, rgba(174,155,209,1) 0%,rgba(174,155,209,1) 50%,rgba(159,139,201,1) 51%,rgba(159,139,201,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae9bd1', endColorstr='#9f8bc9',GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(255,172,0,1) 0%, rgba(174,155,209,1) 50%, rgba(159,139,201,1) 51%, rgba(159,139,201,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,172,0,1) 0%,rgba(174,155,209,1) 50%,rgba(159,139,201,1) 51%,rgba(159,139,201,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,172,0,1) 0%,rgba(255,172,0,1) 50%,rgba(241,114,11,1) 51%,rgba(241,114,11,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffac00', endColorstr='#F1720B',GradientType=0 );
 }
 
 .ga-xcm-available .ga-xcm-left strong{
@@ -9416,7 +9420,7 @@ z-index:10;
 	top:15px;
 	text-align:center;
 	text-transform:uppercase;
-	color:#a08ac9;
+	color:#F1720B;
 	font-size:12px;
 	font-weight:500;
 }
@@ -9429,7 +9433,7 @@ z-index:10;
 	line-height:14px;
 }
 .plane-text strong {
-	color:#5c6783;
+	color:#F1720B;
 	font-size:12px;
 	font-weight:500;
 }
