@@ -498,43 +498,43 @@ $(document).ready(function () {
 		var target;
 		var current = 0;
 		var scr = true;
-		var duration = 500;
-		var disable = 600;
+		var duration = 00;
+
 		var lastScrollTop = 0;
-		var lastDirection = 1;
+		var lastDirection = 0;
 		var st;
 
 		if(trg) {
-			if(window.innerWidth>991){
-			disableScroll();
+			
+		enableScroll();
 			Object.keys(slides).forEach(function(key) {
 				if(trg == ("#"+$(slides[key]).attr("id"))){
-					current = key-1;
+					current = key;
 				}
 			});
-		}
+		
 		}
 
 		$(document).on("scroll", onScroll);
 
 		function onScroll(e) {
 
-			if(window.innerWidth>991){
+			
 
 			checkDirection();
 
 			if(scr){
 				scr = false;
-				disableScroll();
+			enableScroll();
 				e.preventDefault();
 				moveSlide();
 
 			setTimeout(function() {
 				scr=true;
 				enableScroll();
-			}, disable);
+			}, );
 			}
-		}
+		
 		}
 
 		function checkDirection() {
@@ -557,21 +557,12 @@ $(document).ready(function () {
 			targetid = slides[current];
 			target = $(targetid);
 
-			if($(targetid).attr("id") == "what-users"){
-				moveComments();
-			}
+		
 			if($(targetid).attr("id") == "milestones"){
 				calendarPlay();
 			}
 
-			$('html, body').stop().animate({
-				'scrollTop': target.offset().top
-			}, {
-				duration: duration,
-				complete: function() {
-					//current++;
-				}
-			}, 'swing');
+		
 		}
 
 		function disableScroll() {

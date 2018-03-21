@@ -2242,10 +2242,7 @@ opacity: 0;
 	opacity: 1;
 }
 
-.ga-enable-anim #ga-chart-1 svg{
-transform: scale(0);
--webkit-animation: scalecharts 0.5s ease-in-out;-moz-animation: scalecharts 0.5s ease-in-out;animation: scalecharts 0.5s ease-in-out;animation-fill-mode: forwards;
-}
+
 .ga-enable-anim #ga-chart-2 svg{
 transform: scale(0);
 -webkit-animation: scalecharts 0.5s 0.3s ease-in-out;-moz-animation: scalecharts 0.5s 0.3s ease-in-out;animation: scalecharts 0.5s 0.3s ease-in-out;animation-fill-mode: forwards;
@@ -2295,9 +2292,8 @@ opacity: 0;
 }
 
 
-@-webkit-keyframes scalecharts {0% {transform: scale(0););}50% {transform: scale(1.2);}100% {transform: scale(1);}}
 @keyframes scalecharts {0% {transform: scale(0);}50% {transform: scale(1.2);}100% {transform: scale(1);}}
-@-webkit-keyframes rotateharts {0% {transform: rotateX( 90deg );-moz-transform: rotateX( 90deg );-webkit-transform: rotateX( 90deg ););}80% {transform: rotateX( -20deg );-moz-transform: rotateX( -20deg );-webkit-transform: rotateX( -20deg );}100% {transform: rotateX( 0deg );-moz-transform: rotateX( 0deg );-webkit-transform: rotateX( 0deg );}}
+@-webkit-keyframes rotateharts {0% {transform: rotateX( 10deg );-moz-transform: rotateX( 90deg );-webkit-transform: rotateX( 90deg ););}80% {transform: rotateX( -20deg );-moz-transform: rotateX( -20deg );-webkit-transform: rotateX( -20deg );}100% {transform: rotateX( 0deg );-moz-transform: rotateX( 0deg );-webkit-transform: rotateX( 0deg );}}
 @keyframes rotateharts {0% {transform: rotateX( 90deg );-moz-transform: rotateX( 90deg );-webkit-transform: rotateX( 90deg ););}80% {transform: rotateX( -20deg );-moz-transform: rotateX( -20deg );-webkit-transform: rotateX( -20deg );}100% {transform: rotateX( 0deg );-moz-transform: rotateX( 0deg );-webkit-transform: rotateX( 0deg );}}
 @-webkit-keyframes scalechartsop {0% {opacity: 0;}70% {opacity: 0;}100% {opacity: 1;}}
 @keyframes scalechartsop {0% {opacity: 0;}70% {opacity: 0;}100% {opacity: 1;}}
@@ -4526,32 +4522,6 @@ input#btn-send-msg:hover {
 	flex-shrink: 0;
 }
 
-.ga-plan .ga-col-first .ga-plan-button:nth-child(3) .ga-circle,
-.ga-plan .ga-col-second .ga-plan-button:nth-child(3) .ga-circle {
-	border-color: #a08ac9;
-}
-.ga-plan .ga-col-first .ga-plan-button:nth-child(4) .ga-circle,
-.ga-plan .ga-col-second .ga-plan-button:nth-child(4) .ga-circle {
-	border-color: #5c6783;
-}
-
-.ga-plan .ga-col-first .ga-plan-button:nth-child(5) .ga-circle,
-.ga-plan .ga-col-second .ga-plan-button:nth-child(5) .ga-circle {
-	border-color: #87dee8;
-}
-
-.ga-plan .ga-col-first .ga-plan-button:nth-child(6) .ga-circle,
-.ga-plan .ga-col-second .ga-plan-button:nth-child(6) .ga-circle {
-	border-color: #ffdb03;
-}
-
-.ga-plan .ga-col-first .ga-plan-button:nth-child(7) .ga-circle {
-	border-color: #ff8251;
-}
-
-.ga-plan .ga-col-first .ga-plan-button:nth-child(8) .ga-circle {
-	border-color: #5cd05f;
-}
 
 .ga-plan .ga-col-first .ga-plan-button:nth-child(3),
 .ga-plan .ga-col-second .ga-plan-button:nth-child(3) {
