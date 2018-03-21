@@ -5001,13 +5001,13 @@ line-height:60px;
 @media screen and (max-width: 767px){
 	.ga-team-right{z-index:2;display:block;position:absolute;top:186px;right:20px;}
 	.ga-team-left{z-index:2;display:block;position:absolute;top:186px;left:20px;}
-	.ga-team-mask{margin:0 auto;width:260px;height:390px;overflow:hidden;background:#A08AC9;}
+	.ga-team-mask{margin:0 auto;width:260px;height:390px;overflow:hidden;background:#f1720b;}
 	.ga-team h3, .ga-team h2{font-size:21px;line-height:30px;}
 	.ga-team-member-description{display:block;}
 	.ga-team span{color:#fff;opacity:0.5;}
 	.ga-team h4, .ga-team h5, .ga-team h6 {color:#fff !important;opacity:1;}
 	.ga-team-block:hover .ga-team-member {top:30px;color:#fff;}
-	#ga-advisor-team  .ga-team-block {background:#3FC6D6;}
+	#ga-advisor-team  .ga-team-block {background:#f3ba2f;}
 	.ga-team-block:hover .ga-team-member-linked {display:none;}
 	.ga-team-block {min-height:390px;width:260px !important;}
 	.ga-team-member {min-height:390px;width:260px !important;}
