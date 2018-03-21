@@ -7470,6 +7470,602 @@ z-index: 3;
 	padding-bottom: 200px;
 }
 
+
+.ico-details__content {
+    padding-top: 50px
+}
+
+.ico-details__content-list>ul>li {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .2)
+}
+
+.ico-details__content-list>ul>li:first-of-type {
+    border-top: 1px solid rgba(255, 255, 255, .2)
+}
+
+.ico-details__content-list ul li {
+    font-size: 16px;
+    line-height: 22px
+}
+
+.ico-details__content-list ul li .small-bonuses {
+    width: 100%
+}
+
+.ico-details__content-list ul li .small-bonuses .description {
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 18px
+}
+
+.ico-details__content-list ul li h5 {
+    font-weight: 700
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram {
+    vertical-align: top;
+    width: 100%;
+    display: inline-block
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram img {
+    display: inline-block;
+    width: 275px;
+    margin-bottom: -45px
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-top: 5px
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li.turquoise-dot:before {
+    background: #8FE0D5
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li.lime-green-dot:before {
+    background: #C3DD3E
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li.pink-dot:before {
+    background: #FFBBF6
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li.blue-dot:before {
+    background: #AFDCFF
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li.orange-dot:before {
+    background: #FFC98A
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li.purple-dot:before {
+    background: #D5C0FF
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li.green-dot:before {
+    background: #94D6AB
+}
+
+.ico-details__content-list .diagram-wrapper .one-diagram ul li.yellow-dot:before {
+    background: #FFD25D
+}
+
+.ico-details__content-bonus {
+    margin-top: 50px
+}
+
+.ico-details__content-bonus h3 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700
+}
+
+.ico-details__content-bonus-days {
+    min-height: 110px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px
+}
+
+.ico-details__content-bonus-days li {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    position: relative;
+    margin-top: 30px
+}
+
+.ico-details__content-bonus-days li canvas {
+    position: relative;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 5px
+}
+
+.ico-details__content-bonus-days li .progress {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F4F5F7;
+    color: #7B53C1;
+    line-height: 70px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0 14px 24px 0 rgba(50, 49, 58, .1)
+}
+
+.ico-details__content-bonus-days li .discount {
+    white-space: nowrap;
+    height: 24px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    background: #E7E9EF;
+    color: #7B53C1;
+    position: absolute;
+    bottom: 30px;
+    box-shadow: 0 14px 24px 0 rgba(50, 49, 58, .1);
+    margin: 0 auto;
+    font-weight: 700;
+    width: auto;
+    padding: 0 12px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%
+}
+
+.ico-details__content-bonus-days li .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 13px
+}
+
+.ico-details__content .ico-details__sub-content {
+    padding-top: 100px
+}
+
+.ico-details__content .ico-details__sub-content h3 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700
+}
+
+.ico-details__content .ico-details__sub-content p {
+    font-size: 20px;
+    line-height: 28px
+}
+
+.ico-details__content-extra-bonus img {
+    border-radius: 18px;
+    box-shadow: 0 11px 19px 0 rgba(50, 49, 58, .25);
+    margin-bottom: 30px
+}
+
+.ico-details__content-extra-bonus p {
+    font-weight: 700
+}
+
+@media (max-width:767px) {
+    .ico-details__content-list ul li {
+        display: -webkit-box;
+        display: flex
+    }
+    .ico-details__content-list ul li h5 {
+        -webkit-box-flex: 0;
+        flex: 0 0 40%
+    }
+    .ico-details__content-list ul li p {
+        -webkit-box-flex: 1;
+        flex: 1 1 auto
+    }
+    .ico-details__content-list ul li:first-of-type {
+        margin-top: 30px
+    }
+    .ico-details__content-list ul li:first-of-type h5 {
+        margin-bottom: 20px
+    }
+    .ico-details__content-list ul .diagram-wrapper .one-diagram:last-of-type {
+        margin-top: 35px
+    }
+    .ico-details__content-list ul .bonus-list {
+        display: block
+    }
+    .ico-details__content-list ul .bonus-list h5,
+    .ico-details__content-list ul .bonus-list p {
+        -webkit-box-flex: 0;
+        flex: none
+    }
+    .ico-details__content-list ul.first-list li:first-child {
+        display: block
+    }
+    .ico-details__content-list ul.first-list li:first-child h5,
+    .ico-details__content-list ul.first-list li:first-child p {
+        -webkit-box-flex: 0;
+        flex: none
+    }
+    .ico-details__content-list ul.first-list li h5 {
+        display: block
+    }
+    .ico-details__content-bonus h3 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center
+    }
+    .ico-details__content-bonus-days {
+        margin-top: -10px;
+        -webkit-box-pack: center;
+        justify-content: center
+    }
+    .ico-details__content-bonus-days li {
+        -webkit-box-flex: 0;
+        flex: 0 0 33%;
+        margin-top: 30px;
+        text-align: center;
+        display: block!important
+    }
+    .ico-details__content-bonus-days li canvas {
+        margin-left: 0
+    }
+    .ico-details__content-bonus-days li .progress {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+    .ico-details__content-bonus-days li .title {
+        font-weight: 700;
+        margin-top: 10px
+    }
+    .ico-details__content .ico-details__sub-content {
+        padding-top: 50px
+    }
+    .ico-details__content .ico-details__sub-content h3 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left
+    }
+    .ico-details__content .ico-details__sub-content p {
+        font-size: 16px;
+        line-height: 22px
+    }
+    .ico-details__content .ico-details__sub-content li:first-of-type {
+        margin-top: 20px
+    }
+    .ico-details__content .ico-details__sub-content li .small-bonuses .description {
+        display: none
+    }
+    .ico-details__content-extra-bonus img {
+        width: 250px;
+        margin: 20px auto 0;
+        display: block
+    }
+    .ico-details__content-extra-bonus p {
+        margin-top: 20px
+    }
+}
+
+@media (min-width:768px) {
+    .ico-details__content {
+        padding-top: 150px
+    }
+    .ico-details__content-list>ul>li {
+        padding: 30px 0;
+        display: -webkit-box;
+        display: flex
+    }
+    .ico-details__content-list ul li {
+        font-size: 20px;
+        line-height: 28px
+    }
+    .ico-details__content-list ul h5 {
+        -webkit-box-flex: 0;
+        flex: 0 0 200px
+    }
+    .ico-details__content-list ul .small-bonuses,
+    .ico-details__content-list ul p {
+        -webkit-box-flex: 1;
+        flex: 1 1 auto
+    }
+    .ico-details__content-list .diagram-wrapper {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        -webkit-box-pack: justify;
+        justify-content: space-between
+    }
+    .ico-details__content-list .diagram-wrapper .one-diagram {
+        width: auto
+    }
+    .ico-details__content-bonus {
+        margin-top: 100px
+    }
+    .ico-details__content-bonus h3 {
+        font-size: 48px;
+        line-height: 48px
+    }
+    .ico-details__content-bonus-days li {
+        -webkit-box-flex: 0;
+        flex: 0 0 90px
+    }
+    .ico-details__content-bonus-days li+li {
+        margin-left: 25px
+    }
+}
+
+@media (min-width:768px) and (max-width:1599px) {
+    .ico-details__content-bonus-days {
+        max-width: 70%
+    }
+    .ico-details__content-bonus-days li:nth-child(4) {
+        margin-left: 0
+    }
+}
+
+
+.ico-details__content-bonus-days {
+    min-height: 110px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px
+}
+
+.ico-details__content-bonus-days li {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    position: relative;
+    margin-top: 30px
+}
+
+.ico-details__content-bonus-days li canvas {
+    position: relative;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 5px
+}
+
+.ico-details__content-bonus-days li .progress {
+    position: absolute;
+    left: 10px;
+    top: 45px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F4F5F7;
+    color: #7B53C1;
+    line-height: 70px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0 14px 24px 0 rgba(50, 49, 58, .1)
+}
+
+.ico-details__content-bonus-days li .discount {
+    white-space: nowrap;
+    height: 24px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    background: #E7E9EF;
+    color: #7B53C1;
+    position: absolute;
+    bottom: 0px;
+    box-shadow: 0 14px 24px 0 rgba(50, 49, 58, .1);
+    margin: 0 auto;
+    font-weight: 700;
+    width: auto;
+    padding: 0 12px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%
+}
+
+.ico-details__content-bonus-days li .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 13px
+}
+
+.ico-details__content .ico-details__sub-content {
+    padding-top: 100px
+}
+
+.ico-details__content .ico-details__sub-content h3 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700
+}
+
+.ico-details__content .ico-details__sub-content p {
+    font-size: 20px;
+    line-height: 28px
+}
+
+.ico-details__content-extra-bonus img {
+    border-radius: 18px;
+    box-shadow: 0 11px 19px 0 rgba(50, 49, 58, .25);
+    margin-bottom: 30px
+}
+
+.ico-details__content-extra-bonus p {
+    font-weight: 700
+}
+
+@media (max-width:767px) {
+    .ico-details__content-list ul li {
+        display: -webkit-box;
+        display: flex
+    }
+    .ico-details__content-list ul li h5 {
+        -webkit-box-flex: 0;
+        flex: 0 0 40%
+    }
+    .ico-details__content-list ul li p {
+        -webkit-box-flex: 1;
+        flex: 1 1 auto
+    }
+    .ico-details__content-list ul li:first-of-type {
+        margin-top: 30px
+    }
+    .ico-details__content-list ul li:first-of-type h5 {
+        margin-bottom: 20px
+    }
+    .ico-details__content-list ul .diagram-wrapper .one-diagram:last-of-type {
+        margin-top: 35px
+    }
+    .ico-details__content-list ul .bonus-list {
+        display: block
+    }
+    .ico-details__content-list ul .bonus-list h5,
+    .ico-details__content-list ul .bonus-list p {
+        -webkit-box-flex: 0;
+        flex: none
+    }
+    .ico-details__content-list ul.first-list li:first-child {
+        display: block
+    }
+    .ico-details__content-list ul.first-list li:first-child h5,
+    .ico-details__content-list ul.first-list li:first-child p {
+        -webkit-box-flex: 0;
+        flex: none
+    }
+    .ico-details__content-list ul.first-list li h5 {
+        display: block
+    }
+    .ico-details__content-bonus h3 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center
+    }
+    .ico-details__content-bonus-days {
+        margin-top: -10px;
+        -webkit-box-pack: center;
+        justify-content: center
+    }
+    .ico-details__content-bonus-days li {
+        -webkit-box-flex: 0;
+        flex: 0 0 33%;
+        margin-top: 30px;
+        text-align: center;
+        display: block!important
+    }
+    .ico-details__content-bonus-days li canvas {
+        margin-left: 0
+    }
+    .ico-details__content-bonus-days li .progress {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+    .ico-details__content-bonus-days li .title {
+        font-weight: 700;
+        margin-top: 10px
+    }
+    .ico-details__content .ico-details__sub-content {
+        padding-top: 50px
+    }
+    .ico-details__content .ico-details__sub-content h3 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left
+    }
+    .ico-details__content .ico-details__sub-content p {
+        font-size: 16px;
+        line-height: 22px
+    }
+    .ico-details__content .ico-details__sub-content li:first-of-type {
+        margin-top: 20px
+    }
+    .ico-details__content .ico-details__sub-content li .small-bonuses .description {
+        display: none
+    }
+    .ico-details__content-extra-bonus img {
+        width: 250px;
+        margin: 20px auto 0;
+        display: block
+    }
+    .ico-details__content-extra-bonus p {
+        margin-top: 20px
+    }
+}
+
+@media (min-width:768px) {
+    .ico-details__content {
+        padding-top: 150px
+    }
+    .ico-details__content-list>ul>li {
+        padding: 30px 0;
+        display: -webkit-box;
+        display: flex
+    }
+    .ico-details__content-list ul li {
+        font-size: 20px;
+        line-height: 28px
+    }
+    .ico-details__content-list ul h5 {
+        -webkit-box-flex: 0;
+        flex: 0 0 200px
+    }
+    .ico-details__content-list ul .small-bonuses,
+    .ico-details__content-list ul p {
+        -webkit-box-flex: 1;
+        flex: 1 1 auto
+    }
+    .ico-details__content-list .diagram-wrapper {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        -webkit-box-pack: justify;
+        justify-content: space-between
+    }
+    .ico-details__content-list .diagram-wrapper .one-diagram {
+        width: auto
+    }
+    .ico-details__content-bonus {
+        margin-top: 100px
+    }
+    .ico-details__content-bonus h3 {
+        font-size: 48px;
+        line-height: 48px
+    }
+    .ico-details__content-bonus-days li {
+        -webkit-box-flex: 0;
+        flex: 0 0 90px
+    }
+    .ico-details__content-bonus-days li+li {
+        margin-left: 25px
+    }
+}
+
+@media (min-width:768px) and (max-width:1599px) {
+    .ico-details__content-bonus-days {
+        max-width: 70%
+    }
+    .ico-details__content-bonus-days li:nth-child(4) {
+        margin-left: 0
+    }
+}
+
+
 .ga-pitchdec-page .ga-pd-milestones h2 {
     margin-bottom: 0;
 }
