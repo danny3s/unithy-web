@@ -4825,7 +4825,7 @@ line-height:60px;
 .ga-team h2{
 	font-weight:600;
 	font-size: 36px;
-	color: #5C6783;
+	color: rgb(218, 157, 107);
 	letter-spacing: 0.25px;
 	line-height: 54px;
 	margin-bottom:10px;
@@ -4833,7 +4833,7 @@ line-height:60px;
 
 #ga-advisor-team h3{
 
-	color:#A18DC9;
+	color:#F1720B;
 }
 
 #ga-advisor-team .ga-team-member-description {
@@ -4935,7 +4935,7 @@ line-height:60px;
 }
 
 .ga-team-block:hover{
-	background:#9F8BC9;
+	background:#f1720b;
 	color:#fff !important;
 }
 
@@ -4975,7 +4975,7 @@ line-height:60px;
 }
 
 #ga-advisor-team .ga-team-block:hover {
-	background:#3FC6D6;
+	background:#fec051;
 }
 
 #ga-advisor-team .ga-team-block:hover h6{
