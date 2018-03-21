@@ -3084,7 +3084,7 @@ left: 0px;
 	border: 1px solid #FFFFFF;
 	padding-left: 20px;
 	border-radius: 100px;
-	width: 175px;
+	width: 189px;
 	line-height: 50px;
 	font-size: 14px;
 	color: #FFFFFF;
@@ -5334,6 +5334,7 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 }
 
 .mt50 {margin-top: 50px;}
+.mt5000 {margin-top: 15px;}
 .mr20 {margin-right: 20px;}
 .pr20 {padding-right: 20px;}
 
