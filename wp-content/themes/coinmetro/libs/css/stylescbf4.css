@@ -7347,10 +7347,10 @@ z-index: 3;
 }
 
 .ga-pd-colendar {
-	background: #8D76B8;
+	background: #F1720B;
 	width: 100%;
 	line-height: 50px;
-	border: 3px solid #5C6783;
+	border: 3px solid rgb(204, 95, 12);
 	border-radius: 8px;
 	font-size: 16px;
 	color: #fff;
