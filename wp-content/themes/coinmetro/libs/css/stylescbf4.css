@@ -4062,7 +4062,7 @@ textarea#message {
 	color: #FFFFFF;
 	letter-spacing: 0.33px;
 	background-size: auto 14px;
-	border-color: #A08AC9;
+	border-color: #ffffff;
 }
 
 input#name,
@@ -4143,7 +4143,7 @@ input#btn-send-msg {
 	background: #FFFFFF;
 	border-radius: 100px;
 	font-size: 14px;
-	color: #A08AC9;
+	color: #F1720B;
 	letter-spacing: 0.33px;
 	background-image:url('../img/Shape.png');
 	background-repeat: no-repeat;
@@ -4154,7 +4154,7 @@ input#btn-send-msg {
 }
 
 input#btn-send-msg:hover {
-	background-color: #A08AC9;
+	background-color: #fec051;
 	background-image:url('../img/Shape-white.png');
 	color:  #FFFFFF;
 	border-color: #FFFFFF;
@@ -8286,7 +8286,7 @@ animation-fill-mode: forwards!important;
 }
 
 .ga-pitchdec-page h3 {
-  color: #5C6783;
+  color: #ffffff;
   margin-bottom: 2rem;
 }
 
