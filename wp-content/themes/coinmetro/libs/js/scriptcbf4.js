@@ -405,6 +405,8 @@ $(document).ready(function () {
 		var drag = false;
 		var previousOffset = 0;
 
+		calendarPlay();
+
 		data.forEach(function(element) {
 			html += "<div class='ga-pd-wu-item'><div class='container ga-100h'><div class='row ga-100h align-items-center'><div class='col-md-1 col-sm-3 col-3 ga-pl50'><img src='../wp-content/uploads/message.png'></div><div class='col-md-11 col-sm-9 col-9 ga-pl75 ga-70h'><div class='row'><div class='col-md-12 ga-height-pd'><strong>"+element.message+" <strong>("+element.market+")</strong></strong></div></div><div class='row'><div class='col-md-6'><span>Submitted "+element.time+" ago by <span>"+element.name+"</span></span></div><div class='col-md-6 d-flex justify-content-end ga-pr30'><span>comment&nbsp share&nbsp save&nbsp hide&nbsp report&nbsp cross&nbsp post</span></div></div></div></div></div></div>";
 		});
@@ -474,12 +476,12 @@ $(document).ready(function () {
 
 		if(reverse){posS=0;posC=0}else{posS = barH - scrollH;posC=-1*(containerH - sliderH);}
 
-		$(scroll).animate({top:posS}, 30000, "linear", function() {
+		$(scroll).animate({top:posS}, 30, "linear", function() {
 			if(reverse){reverse = false;}else{reverse=true}
 			moveComments();
 		});
 
-		$(container).animate({top:posC}, 30000, "linear", function() {
+		$(container).animate({top:posC}, 30, "linear", function() {
 		});
 
 		scroll.hover(function() {
@@ -519,7 +521,9 @@ $(document).ready(function () {
 
 		function onScroll(e) {
 
-			
+			if($(targetid).attr("id") == "milestones"){
+				calendarPlay();
+			}
 
 			checkDirection();
 
@@ -539,6 +543,10 @@ $(document).ready(function () {
 
 		function checkDirection() {
 			st = $(this).scrollTop();
+
+			if($(targetid).attr("id") == "milestones"){
+				calendarPlay();
+			}
 			if (st > lastScrollTop){
 					lastDirection = 1;
 			} else {

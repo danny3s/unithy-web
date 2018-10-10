@@ -5315,7 +5315,7 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 	display:inline-block;
 	text-align:center;
 	background: #F1720B;
-	border: 1px solid #3BC7D7;
+	border: 1px solid #ff8e69;
 	border-radius: 100px;
 	color:#fff;
 	padding-left: 20px;
@@ -5341,7 +5341,7 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 
 .ga-blue-button:hover {
 	background:#fff;
-	color:#3BC7D7 !important;
+	color:#ff8e69  !important;
 }
 
 .ga-blue-button:link, .ga-blue-button:visited {
@@ -5376,7 +5376,7 @@ position:absolute;display:none;z-index:10000;width:50px;height:25px;}
 
 
 .ga-wviolet-button:hover {
-	background:#fec051;
+	background:#ff8e69;
 	color:#fff !important;
 }
 
