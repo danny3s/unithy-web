@@ -8,6 +8,14 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+ @font-face {
+  font-family: Cera-pro;
+  src: url(unithy-web/Cera-Pro-Regular.otf);
+}
+
+div {
+  font-family: Cera-pro;
+}
 
 html {
   line-height: 1.15; /* 1 */
