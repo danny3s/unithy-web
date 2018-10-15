@@ -10031,6 +10031,9 @@ z-index:10;
 	height:auto;
 }
 
+.mySlides {display:none;}
+
+
 .center {
 	display: block;
     margin-left: auto;
@@ -10039,13 +10042,28 @@ z-index:10;
     height: auto;
 }
 
-.phrase {
+.competition{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+	width: 100%;
+    height: 100%;
 }
 
+.phrase {
+	display: block;
+    margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+
+#main-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:50%
+  } 
+  
 .plane-text {
 	display:flex;
 	align-items: center!important;
